@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;700&family=Didact+Gothic&display=swap');
+
+.header {
+	background-color: #414141;
+	background-image: url("images/derkleineprinz.jpg");
+	background-repeat: no-repeat; 
+	height: 50px;
+	width: 100%;
+	font-weight: 700;
+	text-transform: capitalize;
+	color: #FFF;
+	padding-top: 300px;
+}
+
+body {
+	padding: 0;
+	color: #414141;
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 100%;
+	line-height: 1.4;
+	background-image: none;
+	background-color: rgb(186, 184, 143);
+	background-attachment: fixed;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0px;
+	margin-left: 0;
+}
+
+.container {
+	width: 1200px;
+	background-image: none;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-right: 30px;
+	padding-left: 50px;
+	height: 100%;
+}
+
+.content {
+	width: 1160px;
+	float: left;
+	background-color: rgb(247, 245, 197);
+	padding-top: 30px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	background-image: none;
+	background-repeat: none;
+	background-position: 995px;
+	min-height: 550px;
+	text-align:justify;
+	color: #000;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+h1 {
+	color: rgb(103,101,63);
+	font-weight: 700;
+	text-align: center;
+	font-size: 40px;
+	line-height: 1.2;
+	margin: 30px 0px;
+	font-family: 'Cormorant Infant', serif;
+}
+
+h2 {
+	color: rgb(103,101,63);
+	font-size: 26px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+p {
+	margin: 0px;
+	margin-bottom: 16px;
+}
+
+strong {
+	font-weight: 700;
+}
+
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+	list-style-image: url();
+	margin-bottom: 25px;
+	margin-top: 0px;
+}
+
+li {
+	margin-left: 10px;
+	text-align: left;
+	position: relative;
+}
+
+li::before {
+	color: rgb(186, 184, 143); 
+	content: "\2022";
+	font-weight: 700;
+	width: 1em;
+	position: absolute;
+	top: 0px;
+	left: -15px;
+}
+
+img { 
+	max-width: 100%; 
+	height: auto;
+	margin-bottom: 0px;
+}
+
+.selfie {
+	width: 200px;
+	padding: 10px;
+	border-radius: 50px;
+}
+
+.selfiebox {
+	position: absolute;
+	right: 1;
+	z-index: 3;
+	margin-top: 20px;
+	margin-left: 900px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none; 
+	font-weight: 700; 
+	color: rgb(186, 184, 143); 
+}
+
+a:visited, a:hover {
+	text-decoration: none;
+	font-weight: 700;
+}
+
+a:active, a:focus { 
+	text-decoration: none;
+}
+
+.Bttn_div {
+	text-align: center; 
+	padding-top: 22px;
+	margin-bottom: 20px;
+}
+
+.Bttn_div a {
+	background-color: #000; 
+	border: 1px solid #000;
+	color: #ffffff; 
+	padding: 10px 30px;
+	border-radius: 0px; 			
+	font-size: 16px; 
+	font-weight: 400; 
+	line-height: 1;			
+	text-align: center; 
+	text-decoration: none;
+	display: inline-block; 			
+	transition: 0.3s;
+}
+
+.Bttn_div a:hover {
+	background-color: #FFF;
+	color: #000;
+	border: 1px solid #000;
+	text-decoration: none;
+}
+
+
+/* ~~ Dieser gruppierte Selektor gibt die Listen im .content-Bereich an. ~~ */
+
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px;
+}
+
+/* ~~ Stile für die Navigationslisten */
+
+ul.nav {
+	list-style: none; 
+	border-top: 1px solid #666; 
+	margin-bottom: 15px; 
+}
+
+ul.nav li {
+	border-bottom: 1px solid #666; 
+}
+
+ul.nav a, ul.nav a:visited { 
+	padding: 5px 5px 5px 15px;
+	display: block; 
+	width: 180px;  
+	text-decoration: none;
+	background: #C6D580;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { 
+	background: #ADB96E;
+	color: #FFF;
+}
+
+/* ~~ Fußzeile ~~ */
+
+.footer {
+	position: relative;
+	clear: both;
+	text-align: center;
+	background-color: #738e30;
+	color: #414141;
+	padding-top: 15px;
+	padding-right: 0;
+	padding-bottom: 14px;
+	padding-left: 0;
+	height: 25px;
+	background-image: url(../images/data/whiteline.png);
+	background-repeat: repeat-x;
+}
+
+.fltrt {  
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+.intern_link {
+	color: #414141;
+	text-decoration: underline;
+
+}
