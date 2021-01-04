@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Markus Eichberger</title>
+<style type="text/css">
+<!--
+
+-->
+</style>
+<link href="menu.css" rel="stylesheet" type="text/css" />
+<link href="main.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header">
+    <div class="page">
+      <div class="page__demo">
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__group"><a href="index.html" class="menu__link">Welcome</a></li>
+            <li class="menu__group"><a href="markus.html" class="menu__link">Markus</a></li>
+            <li class="menu__group"><a href="tamara.html" class="menu__link">Tamara</a></li>
+            <li class="menu__group"><a href="kathi.html" class="menu__link">Kathi</a></li>
+			<li class="menu__group"><a href="alexandra.html" class="menu__link">Alexandra</a></li>
+            <li class="menu__group"><a href="xandi.html" class="menu__link">Xandi</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="content">
+	
+	 <div class="selfiebox">
+	  <img class="selfie" src="images/Markus.png" alt="Markus Eichberger" title="Markus Eichberger looking into the distance in a really cool way" />
+	 </div>
+	
+    <h1>Markus Eichberger</h1>
+	  
+	 <h2>Birthday:</h2>
+	 <p>10.06.1995</p>
+	    
+	 <h2>Hobbies:</h2>
+	 <ul>
+		<li>Skiing</li> 
+		<li>Life</li>
+		<li>Laugh</li>
+		<li>Love</li> 
+		<li>Dancing like no one is watching</li>
+		<li>Crocodile wrestling</li>
+		<li>Adding explosions to everything</li>
+		<li><img src="images/blow.gif" alt="Ka-BOOM" title="SUPERCOOL EXPLOSION" /></li>
+	 </ul>
+	  
+	 <h2>Big Loves:</h2>
+	 <p>My girlfriend and literally every dog I meet.</p>
+	
+    <h3 align="center">Knowledge is power, France is bacon.<br/> - <em>Funny guy on the Internet</em></h3>
+    <p>&nbsp;</p>
+  </div>
+
+  <div class="footer">
+    <p>Group Website for Digital Publishing Platform made by Markus Eichberger, Tamara Schiffer, Alexandra Sprenger, Katharina Siuka and Alexandra Zieger</p>
+    <!-- end .footer --></div>
+  <!-- end .container --></div>
+</body>
+</html>
